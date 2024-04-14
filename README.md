@@ -20,7 +20,10 @@ pip install pyaudio vosk streamlit
 `````
 pip install git+https://github.com/openai/whisper.git 
 `````
-5. Você precisa instalar o **ffmpeg** como um módulo python (com pip install ffmpeg) 
+5. Você precisa instalar o **ffmpeg** como um módulo python e também seguir o passos a seguir para intalação em seu computador.
+`````
+ pip install ffmpeg
+ `````
 - siga as intrunções: https://ffmpeg.org/download.html.
 - caso seu sitema opreacional seja WINDOWS: [https://www.geeksforgeeks.org/how-to-install-ffmpeg -no Windows/](https://www-geeksforgeeks-org.translate.goog/how-to-install-ffmpeg-on-windows/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp)
 
