@@ -57,5 +57,4 @@ Se inscreva no canal Devnologia e deixe seu like para nos apoiar! Agradecemos a 
 Observações:
 
 Substitua [link do vídeo do YouTube] pelo link real do seu vídeo.
-Substitua [Link do repositório do Github] pelo link real do seu repositório.
 Certifique-se de que os links para a documentação das bibliotecas estejam corretos.
