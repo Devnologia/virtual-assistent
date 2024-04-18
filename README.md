@@ -42,7 +42,7 @@ Este tutorial é ideal para:
 - Pessoas interessadas em inteligência artificial e processamento de linguagem natural.
 
 ### Assista ao Vídeo!
-Clique aqui: link do vídeo do YouTube: link do vídeo do YouTube para assistir ao vídeo completo e começar a criar o seu assistente de voz com Python!
+Clique aqui:[ link do vídeo do YouTube](https://youtu.be/8Jk2JI_FOjw): para assistir ao vídeo completo e começar a criar o seu assistente de voz com Python!
 
 ### Recursos Adicionais
 Código fonte do projeto: [Link do repositório do Github](https://github.com/Devnologia/virtual-assistent)
@@ -53,8 +53,3 @@ Documentação do Streamlit: [Link para documentação da biblioteca Streamlit](
 
 ### Feedback
 Se inscreva no canal Devnologia e deixe seu like para nos apoiar! Agradecemos a audiência.
-
-Observações:
-
-Substitua [link do vídeo do YouTube] pelo link real do seu vídeo.
-Certifique-se de que os links para a documentação das bibliotecas estejam corretos.

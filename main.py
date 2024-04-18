@@ -5,7 +5,7 @@ from PIL import Image
 img = Image.open('devnologia-logo-fa.png')
 st.set_page_config(page_title="Assistente Virtual", layout='centered', page_icon=img)
 
-st.title(" Assistente Virtual - @devnologia")
+st.title("🤖 Assistente Virtual - @devnologia")
 
 audio_file = st.file_uploader("Carregar Audio", type=["wav", "mp3", "m4a"])
 audio_path = "audios/"
