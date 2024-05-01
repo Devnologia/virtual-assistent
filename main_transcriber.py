@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+from src.audio_transcriber import AudioTranscriber
 import whisper
 
 class StreamlitInterface:
@@ -14,25 +15,33 @@ class StreamlitInterface:
         self.audio_path = "audios/"
         
         # Inicializar o modelo de transcrição
-        
+        vosk_model_path = "src/vosk-model-small-pt-0.3"  # Insira o caminho para o modelo Vosk
+        self.transcriber = AudioTranscriber(vosk_model_path)
         
         # Inicializar o modelo Whisper
         self.whisper_model = whisper.load_model("base")
         
         # Espaço para exibir a transcrição em tempo real
-        
+        self.transcricao_text = st.empty()
         
         # Botões na barra lateral
         self.init_sidebar()
         
     def init_sidebar(self):
         # Seção para transcrição de áudio do microfone
+        st.sidebar.header("Meu Assistente")
 
         # Botão para iniciar gravação
-        
+        if st.sidebar.button("Iniciar gravação"):
+            self.transcriber.start_recording()
+            self.transcriber.transcribe_audio(self.transcricao_text)
+            
         # Botão para parar gravação
-       
+        if st.sidebar.button("Parar gravação"):
+            self.transcriber.stop_recording()
+
         # Linha de separação visual
+        st.sidebar.markdown("---")
 
         # Seção para transcrição de áudio gravado
         st.sidebar.header("Transcrição de Áudio")    
